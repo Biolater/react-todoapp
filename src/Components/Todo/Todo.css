@@ -50,14 +50,4 @@
     padding: 0px;
 }
 
-@media(max-width:350px) {
-    .add-task {
-        font-size: 13px;
-    }
-
-    .todo__input {
-        padding: 5px 15px;
-        font-size: 13px;
-    }
-}
 

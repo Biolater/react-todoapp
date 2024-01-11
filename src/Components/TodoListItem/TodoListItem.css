@@ -1,0 +1,68 @@
+.edit-button,
+.delete-button {
+    width: 30px;
+    height: 20px;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todolist__item-buttons {
+    display: flex;
+}
+
+.edit-button,
+.delete-button i {
+    font-size: 15px;
+}
+
+.todolist-items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 285px;
+    overflow: auto;
+}
+
+.todolist-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: var(--purple-color);
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.edit{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.edit input{
+    width: 60%;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid var(--purple-color);
+    color: #fff;
+}
+
+.edit button{
+    width: 25%;
+    cursor: pointer;
+}
+
+@media(min-width:400px){
+    .todolist-item{
+        padding: 10px 15px;
+    }
+}

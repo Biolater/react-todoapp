@@ -1,0 +1,64 @@
+.todo-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 0px;
+}
+
+.todo-wrapper {
+    max-width: 450px;
+    max-height: 700px;
+    width: 100%;
+    background-color: var(--darkish-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-title {
+    color: #fff;
+    text-align: center;
+}
+
+.todo__input-section {
+    position: relative;
+    display: flex;
+    border: 1px solid var(--purple-color);
+    margin: 20px 0px 30px;
+}
+
+.todo__input {
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    width: 75%;
+}
+
+.add-task {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: var(--purple-color);
+    font-size: 14px;
+    white-space: nowrap;
+    width: 25%;
+    padding: 0px;
+}
+
+@media(max-width:350px) {
+    .add-task {
+        font-size: 13px;
+    }
+
+    .todo__input {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+}
+

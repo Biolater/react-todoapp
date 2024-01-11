@@ -1,0 +1,8 @@
+:root{
+    --purple-color : #8059f5;
+    --darkish-color : #1d1a41;
+}
+
+body{
+    background-color: var(--purple-color);
+}
